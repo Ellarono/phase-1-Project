@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body {
+background-color: powderblue;
+font-family: 'Courier New', Courier, monospace;
+margin: 0;
+}
+button{
+    cursor: pointer;
+}
+button:active{
+    transform: scale(0.95);
+
+}
+input:focus
+button:focus {
+outline: none;
+}
+header{
+    background-image:url("https://images3.alphacoders.com/947/947072.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(247, 116, 149);
+    color: rgb(176, 115, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    padding: 100px;
+    position: relative;
+
+
+
+
+}
+head::after{
+    content:'';
+    position:absolute;
+    top:0;
+    left: 0;
+    height:100%;
+    width: 100%;
+    background-color: palevioletred;
+}
